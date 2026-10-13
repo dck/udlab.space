@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fitlake: fitness data lake app · udlab</title>
+<meta name="description" content="fitlake puts gym, running, MMA, sleep and heart rate data in one place and builds an athlete model based on known methods from sports science.">
+<link rel="canonical" href="https://udlab.space/fitlake/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="udlab">
+<meta property="og:title" content="fitlake: fitness data lake app · udlab">
+<meta property="og:description" content="fitlake puts gym, running, MMA, sleep and heart rate data in one place and builds an athlete model based on known methods from sports science.">
+<meta property="og:url" content="https://udlab.space/fitlake/">
+<meta property="og:image" content="https://udlab.space/fitlake/home.jpg">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ccircle cx='22' cy='22' r='5' fill='%23e0301e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martian+Mono:wdth,wght@75..112.5,400..800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "name": "fitlake", "description": "fitlake puts gym, running, MMA, sleep and heart rate data in one place and builds an athlete model based on known methods from sports science.", "author": {"@type": "Person", "name": "Denis Usanov", "url": "https://usanov.info"}, "@type": "SoftwareApplication", "applicationCategory": "HealthApplication"}</script>
+</head>
+<body>
+<main class="zone">
+  <a class="home" href="/">udlab<span class="dot">.</span>space<span class="dot">.</span></a>
+
+  <article class="project has-shots">
+    <h1>fitlake</h1>
+    <p class="lead comment">fitness data lake app</p>
+    <div class="body">
+    <div class="prose">
+    <p>fitlake puts all my training data in one place: gym workouts, runs, MMA sessions, and sleep and heart rate from my watch.</p>
+    <p>From this data it builds an athlete model based on known methods from sports science:</p>
+    <ul>
+      <li>readiness: a score every morning from heart rate variability, resting heart rate, sleep and breathing</li>
+      <li>session load: Banister TRIMP from heart rate, and Foster session RPE</li>
+      <li>weekly load: Foster monotony and strain, and the last 7 days against the last 28</li>
+      <li>strength: estimated one-rep max for each lift (Epley and Brzycki formulas) and how fast it grows</li>
+      <li>muscle balance: hard sets for each muscle group per week</li>
+      <li>running: VO2max, easy and hard runs split by heart rate (Seiler), heart rate recovery</li>
+    </ul>
+    <p>I built it when I started doing gym, running and MMA at the same time. I needed to balance the load, see my progress and avoid overtraining.</p>
+    <p>fitlake is private. It reads health data from Google Health, and Google allows this for other people only after a long security review of the app. So I have not decided yet how to share it.</p>
+    </div>
+    <section class="shots" aria-label="Screenshots">
+    <figure>
+      <img src="/fitlake/home.jpg" width="1120" height="700" alt="fitlake home page. Sample data." loading="lazy">
+      <figcaption>fitlake home page. Sample data.</figcaption>
+    </figure>
+    </section>
+    </div>
+  </article>
+
+  <footer class="foot">
+    <p class="comment"><a href="/">all projects</a> &middot; &copy; 2026 Denis Usanov</p>
+  </footer>
+</main>
+</body>
+</html>
